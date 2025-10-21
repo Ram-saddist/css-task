@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            margin: 0%;
+            background-color: whitesmoke;
+            font-family: sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .navbar {
+            background-color: white;
+            box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.4);
+            padding: 20px 5%;
+            display: flex;
+            justify-content: space-between;
+            position: sticky;
+            top: 0px;
+        }
+
+        .dropdowns {
+            width: 60%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .navbar .dropdowns select {
+            border: none;
+            font-weight: bold;
+        }
+
+        .navbar-links a {
+            color: #002970;
+        }
+
+        .navbar-links .sign-in {
+            background-color: #002970;
+            color: white;
+            padding: 7px 13px 7px 1px;
+            border-radius: 999px;
+            margin-left: 10px
+        }
+
+        .sign-in .fa-user {
+            background-color: #00baf2;
+            border-radius: 50%;
+            padding: 4px;
+        }
+
+        .investment-journey-container {
+            background-image: url("https://assetscdn1.paytm.com/images/catalog/view/1752666927695.png");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position:bottom;
+            display: flex;
+            margin: 2% 5%;
+            padding: 2% 0% 0% 5% ;
+            border-radius: 10px;
+            background-color: white;
+        }
+        .investment-journey{
+            width: 88%;
+        }
+        .investment-journey img{
+            width: 30%;
+        }
+        .investment-journey h1{
+            font-size: 2.5rem;
+        }
+        .investment-journey-description{
+            font-size: 1.3rem;
+        }
+        .investment-journey .investment-learn{
+            background-color: #002970;
+            color: white;
+            border-radius: 25px;
+            padding:10px 20px;
+        }
+        .investment-journey-image img{
+            width: 100%;
+        }
+        /* *{
+            border: 1px solid red;
+        } */
+        .bank-account-container{
+            background-image: none;
+            padding: 2% 0% 2% 7%;
+        }
+        .bank-account{
+            padding-top: 6%;
+        }
+        .playstore-downloads{
+            margin-top: 8%;
+        }
+        .credit-super-container{
+            display: flex;
+            gap: 20px;
+            margin: 2% 5%;
+        }
+        .credit-cards{
+            padding: 5%;
+            border-radius: 20px;
+            background-image: url("https://assetscdn1.paytm.com/images/catalog/view_item/1725638720587.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+        }
+        .credit-cards>img{
+            width: 30%;
+        }
+        .apply{
+            display: flex;
+            align-items: center;
+        }
+        .apply a{
+            color: #002970;
+            border: 1px solid #002970;
+            border-radius: 25px;
+            padding: 10px 20px; 
+            margin-right: 20px;
+        }
+        .apply a:hover{
+            background-color: #002970;
+            color: white;
+        }
+        .apply img{
+            width: 40%;
+        }
+        .credit-footer-image {
+            width: 100% !important;
+            margin-top: 5%;
+        }
+        .super-market{
+            background-image: none;
+            background: linear-gradient(#D3F5FF, #FFFFFF);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="">
+            <img src="https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/logo_new.svg" alt="" />
+        </a>
+        <div class="dropdowns">
+            <select>
+                <option value="">Recharge & Bills</option>
+            </select>
+            <select>
+                <option value="">Ticket Booking</option>
+            </select>
+            <select>
+                <option value="">Payments & Services</option>
+            </select>
+            <select>
+                <option value="">Paytm for Business</option>
+            </select>
+            <select>
+                <option value="">Company</option>
+            </select>
+        </div>
+        <div class="navbar-links">
+            <a href=""><i class="fa-solid fa-download"></i> Download App</a>
+            <a href="" class="sign-in">
+                <i class="fa-solid fa-user"></i> Sign In
+            </a>
+        </div>
+    </nav>
+
+    <div class="investment-journey-container">
+        <div class="investment-journey">
+            <img src="https://assetscdn1.paytm.com/images/catalog/view/308774/1617696247991.png" alt="" />
+            <h1>Everything you need to start your <span style="color:#00baf2">investment journey</span></h1>
+            <p class="investment-journey-description">Whether you're a beginner or pro, Paytm Money helps you invest smarter and achieve financial
+                independence. Get access to expert opinion, mutual fund SIP, F&O trading, and much more - all in one
+                app.</p>
+            <a href="" class="investment-learn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            <p>
+                Investments in the securities market are subject to market risks, read all the related documents
+                carefully before investing. For complete Terms & Conditions and Disclaimers visit:
+                <a
+                    href="https://www.paytmmoney.com/stocks/policies/terms">https://www.paytmmoney.com/stocks/policies/terms</a>
+            </p>
+        </div>
+        <div class="investment-journey-image">
+            <img src="https://assetscdn1.paytm.com/images/catalog/view/1752737003196.png" alt="" />
+        </div>
+    </div>
+   
+    <div class="investment-journey-container bank-account-container">
+        <div class="investment-journey bank-account">
+            <img src="https://assetscdn1.paytm.com/images/catalog/view/342367/1725447383123.png" alt="" />
+            <h1>Pay anyone directly from your <span style="color:#00baf2">bank account</span></h1>
+            <p class="investment-journey-description">Pay anyone, everywhere. Make contactless & secure payments in-stores or online using Paytm UPI or Directly from your Bank Account. Plus, send & receive money from anyone.</p>
+            <div class="playstore-downloads">
+                <a href="">
+                    <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2834703/1725432129171.png" alt="">
+                </a>
+                <a href="">
+                    <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2834704/1725432148873.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="investment-journey-image">
+            <img src="https://assetscdn1.paytm.com/images/catalog/view/1752741641420.png" alt="" />
+        </div>
+    </div>
+    <div class="credit-super-container">
+       <div class="credit-cards">
+        <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2988623/27220898816562102.png" alt=""/>
+        <h1>One destination for <span style="color:#00baf2">Credit Cards</span></h1>
+        <p>Paytm HDFC, SBI Card & Axis Bank Credit Card with assured Cashback and incredible offers.</p>
+        <div class="apply">
+            <a href="">Apply Now <i class="fa-solid fa-arrow-right"></i></a>
+            <img src="https://assetscdn1.paytm.com/images/catalog/view_item/1741675100265.png" alt="">
+        </div>
+        <img class="credit-footer-image" src="https://assetscdn1.paytm.com/images/catalog/view_item/2988623/27221716933469500.png" alt="">
+       </div> 
+       <div class="credit-cards super-market">
+        <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2834804/1725623952233.png" alt=""/>
+        <h1>Insurance ka <br/> <span style="color:#00baf2">Super Market</span></h1>
+        <p>A Smart, Simple & Transparent Platform to Explore & Purchase Insurance.</p>
+        <div class="apply">
+            <a href="">Get It Now <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <img class="credit-footer-image"  src="https://assetscdn1.paytm.com/images/catalog/view_item/2988624/27217428616091880.png" alt="">
+       </div> 
+    </div>
+
+</body>
+
+</html>
